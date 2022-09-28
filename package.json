@@ -1,11 +1,15 @@
 {
-  "name": "template.publish.github-action",
+  "name": "dendron",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "repository": "https://github.com/dendronhq/template.publish.github-action.git",
-  "author": "Kevin <kevin@dendron.so>",
-  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "@dendronhq/dendron-cli": "^0.106.0"
+    "@dendronhq/dendron-cli": "^0.114.0"
   }
 }
