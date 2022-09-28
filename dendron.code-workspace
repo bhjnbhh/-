@@ -1,7 +1,10 @@
 {
     "folders": [
         {
-            "path": "notes"
+            "path": "vault"
+        },
+        {
+            "path": "."
         }
     ],
     "settings": {
@@ -14,13 +17,10 @@
         "editor.snippetSuggestions": "inline",
         "editor.suggest.snippetsPreventQuickSuggestions": false,
         "editor.suggest.showSnippets": true,
-        "editor.tabCompletion": "on",
-        "dendron.enableSelfContainedVaultWorkspace": true,
-        "git.ignoreLimitWarning": true
+        "editor.tabCompletion": "on"
     },
     "extensions": {
         "recommendations": [
-            "dendron.dendron",
             "dendron.dendron-paste-image",
             "dendron.dendron-markdown-shortcuts",
             "redhat.vscode-yaml"
@@ -28,7 +28,6 @@
         "unwantedRecommendations": [
             "dendron.dendron-markdown-links",
             "dendron.dendron-markdown-notes",
-            "dendron.dendron-markdown-preview-enhanced",
             "shd101wyy.markdown-preview-enhanced",
             "kortina.vscode-markdown-notes",
             "mushan.vscode-paste-image"
